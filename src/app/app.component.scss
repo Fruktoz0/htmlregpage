@@ -1,0 +1,37 @@
+.container {
+    border: 2px solid #ececec;
+    border-radius: 5px;
+
+    .bigImage {
+        width: 400px;
+    }
+
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .lock{
+        background-color: #c4f0ff;
+        width: fill;
+        height: 4rem;
+        border-left: 3px solid #13c3ff;
+
+        fa-icon{
+            color: #13c3ff;
+            font-size: 25px;
+        }
+
+        li{
+            font-size: 10px;
+        }
+    }
+
+    .picBox{
+        border-right: 2px solid #ececec;
+    }
+
+    button{
+        padding: 3px 60px 3px 60px;
+    }
+}
